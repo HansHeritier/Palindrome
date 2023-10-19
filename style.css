@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+      225deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    color: white;
+    height: 100vh;
+    font-family: "Courgette", cursive;
+  }
+  
+  .container {
+    max-width: 320px;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: "Courgette", cursive;
+    margin-left:auto; 
+    margin-right: auto;
+    
+  }
+  
+  img {
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+  }
+  
+  h1 {
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 2.5em;
+    font-size: 1.7rem;
+    margin-bottom: 2em;
+  }
+  
+  label {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+  }
+  .box {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px;
+    color: lightgray;
+  }
+  
+  button {
+    padding: 0px 15px;
+    font-family: "Courgette", cursive;
+    border-radius: 20px;
+    height: 35px;
+    border: 1px;
+    color: black;
+    background-color: white;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: "Courgette", cursive;
+    color: green;
+    text-align: center;
+  }
+  
+  #footer {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #footer p {
+    margin: 1px;
+    font-size: 20px;
+  }
+  #footer img {
+    margin-bottom: 20px;
+  }
+  
